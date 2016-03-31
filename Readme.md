@@ -11,7 +11,7 @@ This script was tested on
 - No additonal HW connected
 - Rasbian GBU/Linux 8 (`cat /etc/issue`) and Debian version 8.0 (`cat /etc/debian_version`)
 
-## Running
+## Installing
 ```
 git clone https://github.com/sebastianzillessen/WiFi-AP-Raspberry-Pi-3.git
 cd WiFi-AP-Raspberry-Pi-3
