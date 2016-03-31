@@ -18,8 +18,8 @@ echo " WiFi device: $WIFI"
 
 # update os
 apt-get update
-apt-get -y upgrade
-apt-get -y install hostapd isc-dhcp-server
+#apt-get -y upgrade
+apt-get -y install hostapd isc-dhcp-server iptables
 
 # check wlan0 available
 
@@ -116,4 +116,5 @@ echo "exit 0;" >> /etc/network/if-up.d/iptables
 chmod +x /etc/network/if-up.d/iptables
 
 # test access point
-/usr/sbin/hostapd /etc/hostapd/hostapd.conf
+echo "Installation done!"
+/usr/sbin/hostapd /etc/hostapd/hostapd.conf & 
