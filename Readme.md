@@ -4,7 +4,14 @@ This install file configures your Raspberrypi 3 Model B as a Wifi-Access Point (
 by sharing the incoming internet connection on `eth0` on the `wlan0` device
 (internal WiFi Chip on the new Pi).
 
-# Running
+## Environment
+This script was tested on 
+
+- Raspberry-Pi 3 Model B
+- No additonal HW connected
+- Rasbian GBU/Linux 8 (`cat /etc/issue`) and Debian version 8.0 (`cat /etc/debian_version`)
+
+## Running
 ```
 git clone https://github.com/sebastianzillessen/WiFi-AP-Raspberry-Pi-3.git
 cd WiFi-AP-Raspberry-Pi-3
