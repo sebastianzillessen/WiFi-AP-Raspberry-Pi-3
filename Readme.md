@@ -10,6 +10,7 @@ This script was tested on
 - Raspberry-Pi 3 Model B
 - No additonal HW connected
 - Rasbian GBU/Linux 8 (`cat /etc/issue`) and Debian version 8.0 (`cat /etc/debian_version`)
+- No changes made to the configuration so far
 
 ## Installing
 ```
@@ -35,6 +36,7 @@ These are parsed in the order. So with
 ```
 You would setup your Raspberrypi with a SSID `TestAp` and a Password `test123`.
 
+*NOTE*: As the script runs an update of all installed software at the beginning, it might take some time. So be patient!
 
 
 
