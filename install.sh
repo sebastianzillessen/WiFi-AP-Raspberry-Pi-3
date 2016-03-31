@@ -76,7 +76,6 @@ ifconfig $WLAN $IP_RANGE.1
 
 # setup hostapd.conf
 CONF_HOST="interface=$WIFI
-#driver=rtl871xdrv  # if you are running into issues, please check your drivers. This should work for raspberrypi 3 model b.
 ssid=$SSID
 hw_mode=g
 channel=6
